@@ -1,5 +1,5 @@
 
-import { Currency, Expenses } from "./expenses";
+import { Currency, Expenses } from "./expenses.js";
 
 const btnAdd = document.querySelector('#btnAdd') as HTMLButtonElement;
 const txttitle = <HTMLInputElement>document.querySelector('#txttitle');
